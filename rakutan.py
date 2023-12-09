@@ -125,11 +125,11 @@ class RakuTan:
     def rogu(self, naui, pl):
         cd = os.getcwd()
         diffd = os.path.join(cd, 'diff')
-        path = os.path.join(diffd, "diff.csv")
+        pasu = os.path.join(diffd, "diff.csv")
         os.makedirs(diffd, exist_ok=True)
         values = pl.strip().split(',')
         tsuiki = [naui] + values
-        with open(path, 'a', newline='', encoding='utf-8') as csvfile:
+        with open(pasu, 'a', newline='', encoding='utf-8') as csvfile:
             csv.writer(csvfile).writerow(tsuiki)
 
     def liset(self):
