@@ -5,3 +5,7 @@
 ## 参照
 
 https://eduweb.sta.kanazawa-u.ac.jp/Portal/Public/Regist/RegistrationStatus.aspx?year=2023&lct_term_cd=22
+
+## 影響
+
+https://kurisyushien.org/
