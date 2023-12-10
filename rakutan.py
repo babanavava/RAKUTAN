@@ -115,7 +115,6 @@ class RakuTan:
                     if int(pv[8]) != 0:
                         print(f"{pl}({datetime.now()})")
                         messe = f"{pv[2]}\n{pv[3]} / {pv[4]} / {pv[0]}\n適正人数:{pv[6]} / 登録人数:{pv[7]} / 残数:{pv[8]}\n{naus}\nｉｉｉｉ今がチャソス！！！！"
-                        print(naus)
                         self.okuru(messe)
                         self.rogu(naui, pl)
 
