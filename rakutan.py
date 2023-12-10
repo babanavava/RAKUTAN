@@ -20,17 +20,17 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 class RakuTan:
     def __init__(self):
-        warnings.filterwarnings("ignore", category=DeprecationWarning)
+        warnings.filterwarnings('ignore', category=DeprecationWarning)
         self.op = Options()
-        self.op.add_argument("--headless")
-        self.op.add_argument("--no-sandbox")
-        self.op.add_argument("--disable-extensions")
+        self.op.add_argument('--headless')
+        self.op.add_argument('--no-sandbox')
+        self.op.add_argument('--disable-extensions')
         self.op.add_argument('--disable-gpu')  
         self.op.add_argument('--ignore-certificate-errors')
         self.op.add_argument('--allow-running-insecure-content')
         self.op.add_argument('--disable-web-security')
         self.op.add_argument('--disable-desktop-notifications')
-        self.op.add_argument("--disable-extensions")
+        self.op.add_argument('--disable-extensions')
         self.op.add_argument('--lang=ja')
         self.op.add_argument('--blink-settings=imagesEnabled=false')
         self.op.add_argument('--disable-dev-shm-usage')
@@ -38,9 +38,9 @@ class RakuTan:
         self.op.add_argument('--proxy-bypass-list=*')
         self.op.add_argument('--disable-logging')
         self.op.add_argument('--log-level=3')
-        self.op.add_argument("--disable-dev-shm-usage")
+        self.op.add_argument('--disable-dev-shm-usage')
         self.op.add_experimental_option('excludeSwitches', ['enable-logging'])
-        self.op.add_experimental_option("excludeSwitches", ['enable-automation'])
+        self.op.add_experimental_option('excludeSwitches', ['enable-automation'])
         
         self.eraa = None
         self.freq = 1
